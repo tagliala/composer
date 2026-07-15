@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Composer support for Capistrano 3.x}
   spec.summary       = %q{Composer support for Capistrano 3.x}
   spec.homepage      = 'https://github.com/capistrano/composer'
+  spec.metadata      = { "rubygems_mfa_required" => "true" }
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
